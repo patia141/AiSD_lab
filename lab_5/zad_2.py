@@ -1,4 +1,3 @@
-#ogarnąć ze zdjęcia
 n=6
 lista=[[0]*n for i in range(n)]
 for i in range(n):
