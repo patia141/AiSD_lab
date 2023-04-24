@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void sortowanie_babelkowe(int *tab, int n)
+void sortowanie(int *tab, int n)
 {
     int pom;
     for(int i=0;i<n-1;i++) {
@@ -19,7 +19,7 @@ int main()
 {
     int n = 5;
     int tab[n] = {5,8,12,-4,-7};
-    sortowanie_babelkowe(tab,n);
+    sortowanie(tab,n);
     int rozp = tab[n-1]-tab[0];
     cout<<"Rozpietosc to: "<<rozp;
     return 0;
