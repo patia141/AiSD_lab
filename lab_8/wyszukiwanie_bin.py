@@ -54,5 +54,3 @@ bez_dupl = usun_duplikaty(lista)
 print("bez dupkl: ",bez_dupl)
 '''z = int(input("Jakiej liczby szukasz? "))
 print(f"szukana liczba znajduje sie na indeksie: {bin_search(lista, 0, n, z)}")'''
-#zrobic schemat blokowy, przerobic na funkcje na obiektowosc,
-#zrobic tak zeby nie bylo duplikatow w liscie - usuwanie duplikatow
